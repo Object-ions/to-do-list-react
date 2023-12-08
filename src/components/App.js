@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
+import './App.css'
+import TodoWrapper from './TodoWrapper'
 
-
-function App() {
+const App = () => {
   return (
-    <>
-
-    </>
-  );
+    <div className='app'>
+      <TodoWrapper />
+    </div>
+  
+  )
 }
 
-export default App;
+export default App
